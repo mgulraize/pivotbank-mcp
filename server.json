@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.pivotbank/pivotbank",
+  "title": "PivotBank",
+  "description": "Convert bank statement PDFs to Excel, CSV, OFX or QBO, every row checked against the balances.",
+  "version": "1.0.1",
+  "websiteUrl": "https://pivotbank.app",
+  "icons": [
+    {
+      "src": "https://pivotbank.app/logo-mark.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://pivotbank.app/mcp" }
+  ]
+}
