@@ -16,6 +16,7 @@ This repository holds the registry listing (`server.json`) and this guide. The s
 | `convert_statement` | Reads every transaction (date, description, money in, money out, balance), checks them against the running balances, and returns a link to download the statement as Excel, CSV, QBO, OFX, QIF or JSON. | PivotBank account, or a Pro API key |
 | `check_statement_balances` | Says whether a statement adds up to the cent, and names the rows where it breaks. | Free PivotBank account |
 | `summarise_spending` | Money in and out, spending by category, top merchants and repeating payments. | Free PivotBank account |
+| `list_statements` | The statements saved on the user's account, newest first, each with its download link. | Free PivotBank account |
 | `list_supported_banks` | The banks PivotBank recognises by name, for one country or all. A bank not listed still converts. | None |
 
 The docs server has `search_docs` and `read_doc` for the API, auth, pricing and versioning.

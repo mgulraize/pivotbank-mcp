@@ -3,7 +3,7 @@
   "name": "app.pivotbank/pivotbank",
   "title": "PivotBank",
   "description": "Convert bank statement PDFs to Excel, CSV, OFX or QBO, every row checked against the balances.",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "websiteUrl": "https://pivotbank.app",
   "repository": {
     "url": "https://github.com/mgulraize/pivotbank-mcp",
