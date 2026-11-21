@@ -1,5 +1,7 @@
 # PivotBank MCP server
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/mgulraize/pivotbank-mcp)
+
 Convert bank statement PDFs to Excel, CSV, QuickBooks (QBO), Xero (OFX), Quicken (QIF) or JSON from any MCP client, with every row checked against the statement's own running balances.
 
 - **Endpoint:** `https://pivotbank.app/mcp` (streamable HTTP, stateless)
